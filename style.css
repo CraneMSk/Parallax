@@ -1,0 +1,123 @@
+@font-face {
+    font-family: delta;
+    src: url(./michael.ttf);
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: delta;
+    line-height: 1.5;
+    background-color: gray;
+    background-image: url(https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header1{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px blue;
+    text-align: center;
+    padding: 50px 0;
+    /*background-image: url(https://cdn.pixabay.com/photo/2016/02/06/18/59/relax-1183452_1280.jpg);*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header1 h1{
+    font-size: 3rem;
+    margin: 40px;
+    
+}
+
+.header p{
+    font-size: 1.2rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 300vh;
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.904);
+    padding: 30px;
+    margin: 10px;
+    width: 60%;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.parallax1{
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/03/20/31/boat-4899802_960_720.jpg);
+}
+.parallax2{
+    background-image: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_1280.jpg);
+}
+.parallax3{
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg);
+}
+
+.parallax{
+    height: 150vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(207, 203, 203);
+}
+
+.parallax p{
+    background-color: rgba(0, 0, 0, 0.904);
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 300vh;
+    color: rgb(209, 206, 206);
+    border-radius: 20px;
+}
+main button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 450px){
+    .flex{
+        justify-content: center;
+    }
